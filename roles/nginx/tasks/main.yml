@@ -1,5 +1,5 @@
 ---
-- name: nging install
+- name: nginx install
   apt:
     name=nginx
     state=latest
