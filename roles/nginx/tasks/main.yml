@@ -4,4 +4,4 @@
     name=nginx
     state=latest
   notify:
-    - nginx systemd
+    - nginx status
